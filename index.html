@@ -9,24 +9,28 @@
   <body>
     <div class="container">
       <h1>My Projects</h1>
-      <div class="inputcontainer">
-        <input type="text" class="enterproject" placeholder="Enter Project" />
-      </div>
+      <form class="inputform">
+        <div class="inputcontainer">
+          <input type="text" class="enterproject" placeholder="Enter Project" />
+        </div>
+      </form>
       <div class="headings">
+        <div id="headings">
+          <h3 class="all">All</h3>
+          <h3 class="active">Active</h3>
+          <h3 class="completed">Completed</h3>
+        </div>
         <div>
-          <h3>All</h3>
           <div class="allprojects"></div>
         </div>
         <div>
-          <h3>Active</h3>
           <div class="activeprojects"></div>
         </div>
         <div>
-          <h3>Completed</h3>
           <div class="completedprojects"></div>
         </div>
       </div>
     </div>
-    <script src="./script1.js"></script>
+    <script src="./script2.js"></script>
   </body>
 </html>

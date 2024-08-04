@@ -16,9 +16,10 @@ body {
   text-align: center;
 }
 
-.headings {
+#headings {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 input {
   width: 100%;
@@ -31,7 +32,10 @@ input {
 h1 {
   margin-bottom: 20px;
 }
-.project {
+.allprojects {
+  width: 100%;
+}
+.projectsdiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +49,7 @@ h1 {
   width: 100%;
 }
 
-/* .delete-button { 
+.delete-button {
   background-color: #ff4d4d;
   border: none;
   color: white;
@@ -61,6 +65,17 @@ h1 {
 .complete-checkbox {
   height: 20px;
   width: 20px;
+  margin-right: 20px;
+}
+.activeprojects {
+  width: 100%;
+}
+.completedprojects {
+  width: 100%;
+}
+.control-container {
+  display: flex;
+  align-items: center;
 }
 .project-element {
   display: flex;
@@ -73,7 +88,8 @@ h1 {
   background-color: #1c1c3c;
   color: white;
   text-align: left;
-  width: 290px;
+  width: 100%;
+  display: none;
 }
 
 .deletebutton2 {
@@ -111,4 +127,3 @@ h1 {
     }
   }
 }
-*/
